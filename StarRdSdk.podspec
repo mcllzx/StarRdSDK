@@ -35,7 +35,7 @@ TODO: Add long description of the pod here.
   s.resource = "Framework/StarRdSdkImages.bundle"
   s.libraries = 'c++'
 
-  s.public_header_files = 'StarRdSdk/StarRdSdk.h'
+  s.public_header_files = 'Framework/StarRdSdk/StarRdSdk.h'
   s.frameworks = 'UIKit', 'CFNetwork'
   
   s.dependency 'AFNetworking','~>4.0.1'
