@@ -6,7 +6,7 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "XCSAdTemplateNativeView.h"
+#import <XCSADCore/XCSAdTemplateNativeView.h>
 
 NS_ASSUME_NONNULL_BEGIN
 

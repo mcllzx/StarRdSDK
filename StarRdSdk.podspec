@@ -47,6 +47,7 @@ TODO: Add long description of the pod here.
   s.dependency 'YYModel', '~>1.0.4'
   s.dependency 'YYText', '~>1.0.7'
   s.dependency 'YYWebImage', '~>1.0.5'
+  s.dependency 'XCSADBridge'
   
   s.static_framework = true
   
