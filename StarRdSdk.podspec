@@ -31,8 +31,8 @@ TODO: Add long description of the pod here.
  
   s.ios.deployment_target = '9.0'
 
-  s.vendored_libraries = "StarRdSdk.framework"
-  s.resource = "StarRdSdkImages.bundle"
+  s.vendored_libraries = "Framework/StarRdSdk.framework"
+  s.resource = "Framework/StarRdSdkImages.bundle"
   s.libraries = 'c++'
 
   s.public_header_files = 'StarRdSdk/StarRdSdk.h'
