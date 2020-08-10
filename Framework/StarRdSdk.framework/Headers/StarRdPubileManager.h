@@ -9,16 +9,22 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
+// 页面导入方式
+typedef NS_ENUM(NSInteger, StarRdShowVCType) {
+    StarRdShowVCType_Tabbar = 0,    //作为Tabbar子控制器
+    StarRdShowVCType_Push,
+    StarRdShowVCType_Present,
+};
+
 @interface StarRdPubileManager : NSObject
 
 /// 初始化方法
 /// @param json json字符串
 + (void)initWithJsonStr:(NSString *)json;
 
+/// 返回阅读视图控制器
++ (UIViewController *)backReaderViewControllerWith:(StarRdShowVCType)showType;
 
-/// 返回视图VC
-/// @param isHaveNavtion 是否需要导航栏返回按钮
-+ (UIViewController *)backViewControllerWith:(BOOL)isHaveNavtion;
 
 @end
 
