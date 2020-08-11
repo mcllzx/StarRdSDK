@@ -26,6 +26,10 @@ typedef NS_ENUM(NSInteger, StarRdShowVCType) {
 + (UIViewController *)backReaderViewControllerWith:(StarRdShowVCType)showType;
 
 
+/// 版本号
++ (NSString *)starRd_version;
+
+
 @end
 
 NS_ASSUME_NONNULL_END
