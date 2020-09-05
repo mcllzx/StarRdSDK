@@ -11,9 +11,9 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-FOUNDATION_EXPORT void MCNetLog(NSString *format, ...) NS_FORMAT_FUNCTION(1, 2);
+FOUNDATION_EXPORT void StarRdNetLog(NSString *format, ...) NS_FORMAT_FUNCTION(1, 2);
 
-@interface MCNetworkUtils : NSObject
+@interface StarRdNetworkUtils : NSObject
 
 + (NSString *)md5StringFromString:(NSString *)string;
 + (BOOL)validateResumeData:(NSData *)data;

@@ -11,7 +11,7 @@ NS_ASSUME_NONNULL_BEGIN
 
 @class StarRdMCBaseRequest;
 
-@interface MCResponseSerializer : NSObject
+@interface StarRdResponseSerializer : NSObject
 
 + (id)serializerResponse:(StarRdMCBaseRequest *)request error:(NSError * _Nullable __autoreleasing *)error;
 

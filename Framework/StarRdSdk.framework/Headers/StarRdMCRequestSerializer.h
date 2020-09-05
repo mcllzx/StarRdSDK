@@ -11,7 +11,7 @@ NS_ASSUME_NONNULL_BEGIN
 
 @class StarRdMCBaseRequest;
 
-@interface MCRequestSerializer : NSObject
+@interface StarRdRequestSerializer : NSObject
 
 /**
  根据request对象配置和NetworkConfig解析出NSURLRequest
