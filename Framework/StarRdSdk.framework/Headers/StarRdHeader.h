@@ -38,6 +38,7 @@
 
 #import "StarRdAccountManager.h"
 #import "StarRdMessageView.h"
+#import "StarRdNavtionView.h"
 
 
 #define kScreenWidth        [UIScreen mainScreen].bounds.size.width
