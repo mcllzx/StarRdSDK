@@ -14,7 +14,7 @@ NS_ASSUME_NONNULL_BEGIN
 @protocol StarRdHistoryRequestLogicDelegate <NSObject>
 @optional
 
-- (void)historyRequest:(StarRdHistoryRequestLogic *)logic historyAry:(NSArray *)hisAry error:(nullable NSError *)error;
+- (void)historyRequest:(StarRdHistoryRequestLogic *)logic historyAry:(NSArray *)hisAry listenHistoryAry:(NSArray *)listenHistoryAry error:(nullable NSError *)error;
 - (void)historyRequest:(StarRdHistoryRequestLogic *)logic addToShelf:(NSArray<NSNumber *> *)bookIDs error:(nullable NSError *)error;
 - (void)historyRequest:(StarRdHistoryRequestLogic *)logic deleteHistory:(NSArray *)bookIDAry error:(nullable NSError *)error;
 

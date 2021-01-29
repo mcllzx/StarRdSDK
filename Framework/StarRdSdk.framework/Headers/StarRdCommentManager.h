@@ -19,6 +19,7 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nonatomic, copy) NSString *appid;
 @property (nonatomic, copy) NSString *bookDetailbannerAdId;
 @property (nonatomic, copy) NSString *rankListnavtionAdId;
+@property (nonatomic, copy) NSString *mallIntertitialAdId;
 
 
 

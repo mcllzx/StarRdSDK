@@ -26,6 +26,9 @@ NS_ASSUME_NONNULL_BEGIN
 
 - (void)resetNowPageNum:(NSInteger)pageNum;
 
+//无动画切换
+- (void)resetNoAnimaPageNum:(NSInteger)pageNum;
+
 @end
 
 NS_ASSUME_NONNULL_END

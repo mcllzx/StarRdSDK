@@ -24,6 +24,8 @@ NS_ASSUME_NONNULL_BEGIN
 
 - (void)setCellInfoWithDic:(NSDictionary *)dic;
 
+- (void)setCellListenDataWith:(NSDictionary *)dic;
+
 @end
 
 NS_ASSUME_NONNULL_END

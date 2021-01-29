@@ -12,6 +12,7 @@ NS_ASSUME_NONNULL_BEGIN
 @interface StarRdOtherReadRequest : StarRdMCBaseRequest
 
 @property (nonatomic, assign) NSInteger bookId;
+@property (nonatomic, assign) NSInteger fCategoryId;
 
 @end
 

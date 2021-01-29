@@ -36,6 +36,12 @@ NS_ASSUME_NONNULL_BEGIN
 + (BOOL)moneyMakingMode;
 + (void)setMoneyMakingMode:(BOOL)mode;
 
++ (void)setFontPath:(NSURL *)path;
++ (void)regisAllFont;
+
++ (CGFloat)readerParagraphSpacing;
+
+
 @end
 
 NS_ASSUME_NONNULL_END

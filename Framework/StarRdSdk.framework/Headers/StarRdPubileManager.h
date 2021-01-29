@@ -25,9 +25,21 @@ typedef NS_ENUM(NSInteger, StarRdShowVCType) {
 /// 返回阅读视图控制器
 + (UIViewController *)backReaderViewControllerWith:(StarRdShowVCType)showType;
 
-
 /// 版本号
 + (NSString *)starRd_version;
+
+/// 播放控制
+
+/// 继续播放
++ (void)playReplayAction;
+/// 暂停播放
++ (void)playPauseAction;
+/// 播放上一曲
++ (void)playLastAction;
+/// 播放下一曲
++ (void)playNextAction;
+/// 小窗口暂停
++ (void)playSmallPauseAction;
 
 
 @end

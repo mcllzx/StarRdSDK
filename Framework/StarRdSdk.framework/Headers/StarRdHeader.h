@@ -39,7 +39,8 @@
 #import "StarRdAccountManager.h"
 #import "StarRdMessageView.h"
 #import "StarRdNavtionView.h"
-
+#import "StarRdCGUtilities.h"
+#import "StarRdNetRequest.h"
 
 #define kScreenWidth        [UIScreen mainScreen].bounds.size.width
 #define kScreenHeight       [UIScreen mainScreen].bounds.size.height
@@ -50,10 +51,11 @@
 #define kIphoneXS (UI_USER_INTERFACE_IDIOM() == UIUserInterfaceIdiomPhone && (kScreenWidth == 375.0 && kScreenHeight == 812.0))
 #define kIphoneXR (UI_USER_INTERFACE_IDIOM() == UIUserInterfaceIdiomPhone && (kScreenWidth == 414.0 && kScreenHeight == 896.0) && (kScreenScale == 2))
 #define kIphoneXS_MAX (UI_USER_INTERFACE_IDIOM() == UIUserInterfaceIdiomPhone && (kScreenWidth == 414.0 && kScreenHeight == 896.0) && (kScreenScale == 3))
-#define kCurveScreen (kIPhoneX || kIphoneXS || kIphoneXR || kIphoneXS_MAX) // 刘海屏幕
-#define kStatusBarHeight (kCurveScreen ? 44 : 20)
+
+#define kCurveScreen (kStarRd_StatusBarHeight > 20) // 刘海屏幕
+#define kStatusBarHeight (kStarRd_StatusBarHeight)
 #define kNavBarHeight ([UIDevice currentDevice].starRd_isPad ? 50 : 44)
-#define kTopBarHeight (kStatusBarHeight + kNavBarHeight)
+#define kTopBarHeight (KMCStatusBarHeight() + kNavBarHeight)
 #define kTabBarHeight (kCurveScreen ? 83 : 49)
 
 // 系统对象缩写

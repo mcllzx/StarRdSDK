@@ -28,6 +28,14 @@ NS_ASSUME_NONNULL_BEGIN
 + (NSInteger)adClickCount;
 + (void)addAdClickCount:(NSInteger)cnt;
 
+
+
+
+/// 获取分页range
++ (NSArray<NSString *> *)rangeAryOfPagesFromeWithString:(NSString *)txtStr
+                                   viewSize:(CGSize)siz
+                                chapterName:(NSString *)chapterName;
+
 @end
 
 NS_ASSUME_NONNULL_END

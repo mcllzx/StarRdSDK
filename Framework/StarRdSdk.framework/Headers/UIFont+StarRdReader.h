@@ -13,6 +13,7 @@ NS_ASSUME_NONNULL_BEGIN
 @interface UIFont (StarRdReader)
 
 + (UIFont *)starRd_hy_readerFont;
++ (UIFont *)starRd_readerChapterNameFont;
 + (UIFont *)starRd_hy_fontWithType:(HYFont)font size:(HYFontSize)siz;
 
 + (CGFloat)starRd_hy_readerLineSpacing;

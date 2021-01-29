@@ -28,7 +28,7 @@ NS_ASSUME_NONNULL_BEGIN
 - (void)requestDetailWithBookID:(NSInteger)bID;
 
 /// 其他用户还在读
-- (void)requestOtherReadeWithBookID:(NSInteger)bID;
+- (void)requestOtherReadeWithFCategoryId:(NSInteger)cateId;
 
 @end
 

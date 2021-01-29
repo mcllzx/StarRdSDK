@@ -36,7 +36,7 @@ NS_ASSUME_NONNULL_BEGIN
 // 喜欢
 - (void)requestLikeList:(NSInteger)page size:(NSInteger)size isMale:(BOOL)isMale;
 // 1：精选、2：网友推荐
-- (void)requestRecommendList:(NSInteger)type;
+- (void)requestRecommendList:(NSInteger)type page:(NSInteger)page;
 
 @end
 
