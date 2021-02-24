@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'StarRdSdk'
-  s.version          = '1.2.2'
+  s.version          = '1.2.3'
   s.summary          = 'A short description of StarRdSdk.'
 
 # This description is used to generate tags and improve search results.
@@ -47,7 +47,7 @@ TODO: Add long description of the pod here.
   s.dependency 'YYModel', '~>1.0.4'
   s.dependency 'YYText', '~>1.0.7'
   s.dependency 'YYWebImage', '~>1.0.5'
-  s.dependency 'XCSADBridge', '~>1.2.3'
+  s.dependency 'XCSADBridge', '~>1.2.5'
   
   s.static_framework = true
   
