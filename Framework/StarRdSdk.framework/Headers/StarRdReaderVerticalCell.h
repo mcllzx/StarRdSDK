@@ -13,7 +13,11 @@ NS_ASSUME_NONNULL_BEGIN
 
 @property (nonatomic, copy, readonly) NSString *preStr;
 @property (nonatomic, strong, readonly) UILabel *labTitle;
+
 - (void)setCellInfoWithStr:(NSString *)str chapterName:(NSString *)chapterName;
+
+//设置信息流广告
+- (void)setCellNavtiveAdWith:(id)navtiveAd;
 
 @end
 
