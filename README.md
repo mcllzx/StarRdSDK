@@ -42,17 +42,25 @@
       },
       "appId":"5",
       "thirdPartyAppId":"2001",
-      "thirdPartyAppName":"demo"
+      "thirdPartyAppName":"demo",
+      "seventeenAppId":"1001",
+      "secret":"dddd1234",
+    	"transcodingAuthAppId":"0001",
   }
   ```
 
 - 获取阅读视图
 
   ```objective-c
+  // 作为Tabbar子控制器
+  UIViewController *mainVC = [StarRdPubileManager backReaderViewControllerWith:StarRdShowVCType_Tabbar];
+  // push推出带导航栏的VC
+  UIViewController *mainVC = [StarRdPubileManager backReaderViewControllerWith:StarRdShowVCType_Push];
+  // Present推出的VC
+  UIViewController *mainVC = [StarRdPubileManager backReaderViewControllerWith:StarRdShowVCType_Present];
   // 不带导航栏的VC
-  UIViewController *mainVC = [StarRdPubileManager backViewControllerWith:NO];
-  // 带导航栏的VC
-  UIViewController *mainVC = [StarRdPubileManager backViewControllerWith:YES];
+  UIViewController *mainVC = [StarRdPubileManager backReaderViewControllerWith:StarRdShowVCType_NoNav];
+  
   ```
 
 - 如果有依赖问题，手动导入`libc++.tbd`

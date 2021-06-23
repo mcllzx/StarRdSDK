@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'StarRdSdk'
-  s.version          = '1.2.5'
+  s.version          = '1.2.6'
   s.summary          = 'A short description of StarRdSdk.'
 
 # This description is used to generate tags and improve search results.
@@ -36,7 +36,7 @@ TODO: Add long description of the pod here.
   s.libraries = 'c++'
 
   s.public_header_files = 'Framework/StarRdSdk/StarRdSdk.h'
-  s.frameworks = 'UIKit', 'CFNetwork'
+  s.frameworks = 'UIKit', 'CFNetwork' , 'AVFoundation', 'MediaPlayer'
   
   s.dependency 'AFNetworking','~>4.0.1'
   s.dependency 'Masonry', '~>1.1.0'
@@ -48,6 +48,10 @@ TODO: Add long description of the pod here.
   s.dependency 'YYText', '~>1.0.7'
   s.dependency 'YYWebImage', '~>1.0.5'
   s.dependency 'XCSADBridge', '~>1.2.5'
+  
+  s.dependency 'XATcodeSDK'
+  s.dependency 'WCDB', '~>1.0.7.5'
+  s.dependency 'JXCategoryView','~>1.4.0'
   
   s.static_framework = true
   

@@ -1,0 +1,6 @@
+framework module StarRdSdk {
+  umbrella header "StarRdSdk.h"
+
+  export *
+  module * { export * }
+}
