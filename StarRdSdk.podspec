@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'StarRdSdk'
-  s.version          = '1.2.6'
+  s.version          = '1.2.7'
   s.summary          = 'A short description of StarRdSdk.'
 
 # This description is used to generate tags and improve search results.
@@ -54,6 +54,8 @@ TODO: Add long description of the pod here.
   s.dependency 'JXCategoryView','~>1.4.0'
   
   s.static_framework = true
+  
+  s.vendored_frameworks = "Framework/Novel17kSDK.xcframework"
   
   
 end

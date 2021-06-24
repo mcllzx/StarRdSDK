@@ -1,0 +1,6 @@
+framework module Novel17kSDK {
+  umbrella header "Novel17kSDK.h"
+
+  export *
+  module * { export * }
+}
