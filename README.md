@@ -63,7 +63,9 @@
   
   ```
 
-- 如果有依赖问题，手动导入`libc++.tbd`
+- 如果有依赖问题，手动导入`libc++.tbd`。
+
+-  若出现`Undefined symbol: _kCMTime…` 问题，导入`CoreMedia.framework`。
 
 #### 3、播放功能
 
